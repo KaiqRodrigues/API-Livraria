@@ -47,13 +47,13 @@ Após clonar o projeto, é necessário criar manualmente os grupos no painel adm
 📌 Passos
 
 Crie um superusuário:
-python manage.py createsuperuser
+- python manage.py createsuperuser
 
 Inicie o servidor:
-python manage.py runserver
+- python manage.py runserver
 
 Acesse o admin:
-http://127.0.0.1:8000/admin/
+- http://127.0.0.1:8000/admin/
 
 ---
 ## 🔐 Autenticação
