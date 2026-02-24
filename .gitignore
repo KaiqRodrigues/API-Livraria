@@ -1,0 +1,18 @@
+# ambiente virtual
+venv/
+
+# python
+__pycache__/
+*.pyc
+
+# banco local
+db.sqlite3
+
+# variáveis sensíveis
+.env
+
+# logs
+*.log
+
+# vscode
+.vscode/
