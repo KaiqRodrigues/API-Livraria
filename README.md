@@ -39,7 +39,23 @@ Desenvolvida com **Django** e **Django REST Framework**, com documentação auto
 - Estoque
 
 ---
+👥 Configuração de Grupos e Permissões
 
+Este projeto utiliza o sistema de grupos e permissões do Django para controle de acesso.
+Após clonar o projeto, é necessário criar manualmente os grupos no painel administrativo.
+
+📌 Passos
+
+Crie um superusuário:
+python manage.py createsuperuser
+
+Inicie o servidor:
+python manage.py runserver
+
+Acesse o admin:
+http://127.0.0.1:8000/admin/
+
+---
 ## 🔐 Autenticação
 
 A API utiliza **JWT (JSON Web Token)**.
